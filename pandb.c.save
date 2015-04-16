@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  return 0;
+}
+
+FILE* create_table(char* name)
+{
+  char table_name[80];
+  strcpy(table_name, name);
+  FILE* table = fopen(strcat(table_name, ".db"), "w+");
+  return tablechar *foo = "foo";
+char *bar = "bar";
+char str[80];
+strcpy(str, "TEXT ");
+strcat(str, foo);
+strcat(str, bar);;
+}
